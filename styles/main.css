@@ -24,7 +24,7 @@ nav li{
 
 .friend {
     max-width: 200px;
-    height: 400px;
+    height: 310px;
     overflow: hidden;
 }
 
@@ -34,7 +34,7 @@ nav li{
 }
 
 main {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -47,6 +47,6 @@ aside {
 }
 
 
-footer nav {
-    background-color: red;
+footer {
+   align-content: center;
 }
